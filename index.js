@@ -26,7 +26,7 @@ app.post('/api/products', async(req, res) => {
     }
 });
 
-
+// mongodb
 mongoose.connect("mongodb+srv://gunalsoftware:XlP6x7pUXBn3VRg6@backenddb.chzouvr.mongodb.net/Node API")
 .then(() => {
     console.log("Connected to database");
